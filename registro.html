@@ -31,7 +31,6 @@
 
     <main class="container">
 
-
         <section>
             <h2>Registro de Jugadores</h2>
             <p>Por favor, complete el siguiente formulario para registrarse como jugador en el torneo de ping pong.</p>
@@ -50,6 +49,7 @@
                 <!-- semestre-->
                 <label for="player-semester">Semestre:</label>
                 <select name="player-semester" id="player-semester">
+                    <option value="null"></option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -60,6 +60,7 @@
                 <!-- Carrera-->
                 <label for="player-career">Carrera:</label>
                 <select name="player-career" id="player-career">
+                    <option value="null"></option>
                     <option value="Informática">Informática</option>
                     <option value="Contaduría">Contaduría</option>
                     <option value="Electrónica">Electrónica</option>
@@ -75,6 +76,7 @@
                 <!-- tier-->
                 <label for="player-tier">Tier:</label>
                 <select name="player-tier" id="player-tier">
+                    <option value="null"></option>
                     <option value="Principiante">Principiante</option>
                     <option value="Intermedio">Intermedio</option>
                     <option value="Avanzado">Avanzado</option>
@@ -111,47 +113,6 @@
 
         </section>
 
-
-        <!--section class="registration-form">
-            <h2>Registro de Jugadores</h2>
-            <form id="registration-form" action="#" method="post">
-                <div class="form-group">
-                    <label for="player-name">Nombre:</label>
-                    <input type="text" id="player-name" name="player-name" required>
-                </div>  
-                <div class="form-group">
-                    <label for="player-lastname">Apellido:</label>
-                    <input type="text" id="player-lastname" name="player-lastname" required>
-                </div> 
-                <div class="form-group">
-                    <label for="player-CI">Cedula:</label>
-                    <input type="number" id="player-CI" name="player-CI" required>
-                </div>
-                <div class="form-group">
-                    <label for="player-semestre">Semestre:</label>
-                    <input type="text" id="player-semestre" name="player-semestre" required>
-                </div>
-                <div class="form-group">
-                    <label for="player-career">Carrera:</label>
-                    <input type="" id="player-career" name="player-career" required>
-                </div>
-                <div class="form-group">
-                    <label for="player-phone">Telefono:</label>
-                    <input type="tel" id="player-phone" name="player-phone" required>
-                </div>
-                <div class="form-tier">
-                    <label for="player-phone">Tier:</label>
-                    <input type="tel" id="player-tier" name="player-tier" required>
-                </div>
-                <div class="form-tier">
-                    <label for="player-availability">Disponivilidad:</label>
-                    <input type="tel" id="player-availability" name="player-availability" required>
-                </div>
-
-                <button type="submit" id="register-button">Registrar Jugador</button>
-            </form>
-            
-        </section-->
     </main>
 </body>
 </html>
